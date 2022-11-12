@@ -32,3 +32,44 @@ Sample Output 2:
    34543
   4567654
 */
+
+		import java.util.Scanner;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		
+		int number=1;
+		int i=1;
+	
+		while(i<=n){
+			
+			number=i;
+			int space=n-i;
+			while(space>0){
+				System.out.print(' ');
+				space--;
+			}
+			int j=1;
+			while(j<=i){
+				System.out.print(number);
+				number++;
+				j++;
+			}
+			number--;
+			number--;
+			int dec=i-1;
+			while(dec>=1){
+				System.out.print(number);
+				number--;
+				dec--;
+			}
+			System.out.println();
+			i++;
+		}
+		
+	}
+
+}
