@@ -40,4 +40,18 @@ public class runner {
                 System.out.println();
             }
         }
-	}
+}
+/*
+"C:\Users\PARAMVEER SINGH\.jdks\openjdk-18.0.2.1-1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\lib\idea_rt.jar=53332:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath D:\IdeaProjects\DDelta\out\production\CodingNinjaas NumberStarPattern
+7
+765432*
+76543*1
+7654*21
+765*321
+76*4321
+7*54321
+*654321
+
+Process finished with exit code 0
+
+*/
