@@ -1,1 +1,1 @@
-This repository is complete solution of coding ninjas JAVA with DSA
+This repository is complete solution of coding ninja JAVA with DSA
