@@ -26,7 +26,7 @@ public class Solution {
 		if(root.data == x)
 		return true;
 		else
-		return (isNodePresent(root.left, x) || isNodePresent(root.left, x));
+		return (isNodePresent(root.left, x) || isNodePresent(root.right, x));
 	}
 
 }
