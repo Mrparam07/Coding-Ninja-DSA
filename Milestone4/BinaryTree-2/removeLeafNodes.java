@@ -3,7 +3,7 @@ public static BinaryTreeNode<Integer> removeLeafNode(BinaryTreeNode<Integer> roo
             return null;
         if(root.left == null && root.right == null)
             return null;
-        removeLeafNode(root.left);
-        removeLeafNode(root.right);
+        root.left = removeLeafNode(root.left);
+        root.right = removeLeafNode(root.right);
         return root;
     }
