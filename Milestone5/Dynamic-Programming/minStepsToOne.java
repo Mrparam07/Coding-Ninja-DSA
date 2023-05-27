@@ -4,20 +4,16 @@ public class Solution {
 		if(n==1)
 		return 0;
 
-		int minSteps = countMinStepsToOne(n-1);
+		int ans1 = countMinStepsToOne(n-1);
+		int ans2=Integer.MAX_VALUE;
+		if(n%2 == 0)
+		ans2 = countMinStepsToOne(n/2);
+		int ans3=Integer.MAX_VALUE;
 		if(n%3 == 0)
-		{
-			int o3=countMinStepsToOne(n/3);
-            if(minSteps>o3)
-                minSteps=o3;
-		}
-		if(n%2==0){
-        int o2=countMinStepsToOne(n/2);
-			if(minSteps>o2)
-				minSteps=o2;
-    }
+		ans3 = countMinStepsToOne(n/3);
 
-    return 1+minSteps;
+		return Math.min(ans1, Math.min(ans2, ans3)) +1 ;
+		//return myAns+1;
 	}
 
 }
