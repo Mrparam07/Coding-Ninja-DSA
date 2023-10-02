@@ -1,7 +1,7 @@
 
 public class Solution {
 
-/*	TreeNode structure 
+/*	TreeNode structure  
  * 
  * class TreeNode<T> {
 		T data;
