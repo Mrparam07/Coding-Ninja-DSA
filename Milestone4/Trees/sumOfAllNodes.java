@@ -4,7 +4,7 @@ public class Solution {
 /*	TreeNode structure  
  * 
  * class TreeNode<T> {
-		T data;
+		T data; 
 		ArrayList<TreeNode<T>> children;
 
 		TreeNode(T data){
